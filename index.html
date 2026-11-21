@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HAKITA WEBSITE REAL</title>
+</head>
+
+<body style="background:linear-gradient(120deg,black,darkred,navy); color:white; font-family:Comic Sans MS;">
+
+<center>
+
+<h1 style="color:red; font-size:65px;">
+    HAKITA!!!!!
+</h1>
+
+<h3>THE GUY WHO MADE ULTRAKILL</h3>
+
+<img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1229490/header.jpg"
+width="350">
+
+<h2 style="color:cyan;">WELCOME TO MY WEBSITE</h2>
+
+<p>this website is about hakita because ultrakill is cool</p>
+
+<p>he made a game where you kill things and drink blood</p>
+
+<hr>
+
+<h1 style="color:red;">ULTRAKILL</h1>
+
+<img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1229490/library_600x900.jpg"
+width="180">
+
+<p>10/10 game probably destroyed my keyboard</p>
+
+<button onclick="alert('MANKIND IS DEAD')"
+style="background:red;color:white;padding:15px;">
+    CLICK FOR NO REASON
+</button>
+
+<h2 style="color:blue;">RANDOM INFORMATION</h2>
+
+<p>Hakita is the developer behind ULTRAKILL</p>
+
+<p>V1 is blue and probably needs therapy</p>
+
+<p>THIS WEBSITE IS VERY PROFESSIONAL</p>
+
+<marquee style="color:red;font-size:25px;">
+    HAKITA HAKITA HAKITA HAKITA HAKITA
+</marquee>
+
+<h1>THANKS FOR VISITING!!!!</h1>
+
+<h2 style="color:red;">
+made by v1 mostly known as the guy with 2 warns!!!!!
+</h2>
+
+<p>made by a totally professional programmer</p>
+
+</center>
+
+</body>
+</html>
+ultrakill">ULTRAKILL</a>
+<a href="#music">MUSIC</a>
+<a href="#discussion">TALK</a>
+<a href="#shoutouts">FRIENDS</a>
+</nav>
+
+<main>
+
+<section id="home" class="hero">
+<h2>WELCOME TO HAKITA CENTRAL!!!!!</h2>
+<h3>H A K I T A</h3>
+<p>THIS WEBSITE IS ABOUT HAKITA!!!!</p>
+<p>BEST WEBSITE ON THE INTERNET???</p>
+</section>
+
+<section id="about">
+<h2>WHO IS HAKITA????</h2>
+<p>Hakita is the creator and lead developer of ULTRAKILL.</p>
+<p>He also makes music for the game.</p>
+<p>HE IS THE HAKITA GUY!!!!</p>
+</section>
+
+<section id="ultrakill">
+<h2>ULTRAKILL!!!!</h2>
+<p>ULTRAKILL is a very fast FPS game.</p>
+<p>IT HAS:</p>
+<ul>
+<li>GUNS</li>
+<li>ROBOTS</li>
+<li>COINS</li>
+<li>COOL MUSIC</li>
+<li>LOTS OF STYLE</li>
+<li>MORE GUNS</li>
+</ul>
+<p>THIS GAME IS VERY COOL!!!!!!!!</p>
+</section>
+
+<section id="music">
+<h2>MUSIC!!!!</h2>
+<p>Hakita makes music for ULTRAKILL.</p>
+<p>THE MUSIC IS VERY GOOD.</p>
+<p>LISTEN TO THE MUSIC!!!!</p>
+</section>
+
+<section id="discussion">
+<h2>TALK ABOUT HAKITA HERE</h2>
+
+<input id="username" placeholder="YOUR NAME">
+
+<textarea id="message"
+placeholder="WRITE ABOUT HAKITA!!!!"></textarea>
+
+<br>
+
+<button onclick="postMessage()">POST IT!!!!</button>
+
+<div id="posts"></div>
+</section>
+
+<section id="shoutouts">
+<h2>SHOUT OUT TO THESE PEOPLE!!!!</h2>
+
+<p>SHOUT OUT TO:</p>
+
+<ul>
+<li>Eyenut / Eyenought or maybe known as Welt (I saw someone call them Welt)</li>
+<li>Rinch the cool one</li>
+<li>The one Canadian guy</li>
+</ul>
+
+<p>YOU GUYS ARE COOL!!!!</p>
+</section>
+
+</main>
+
+<footer>
+<p>HAKITA WEBSITE © 2026</p>
+<p>MADE WITH 100% HTML SKILL</p>
+<p>NOT OFFICIAL LOL</p>
+</footer>
+
+<script>
+function postMessage() {
+  let username = document.getElementById("username");
+  let message = document.getElementById("message");
+  let posts = document.getElementById("posts");
+
+  if (!username.value.trim() || !message.value.trim()) {
+    alert("WRITE SOMETHING FIRST!!!!");
+    return;
+  }
+
+  let post = document.createElement("div");
+  post.className = "post";
+
+  let name = document.createElement("b");
+  name.textContent = username.value;
+
+  let text = document.createElement("p");
+  text.textContent = message.value;
+
+  post.append(name, text);
+  posts.prepend(post);
+
+  message.value = "";
+}
+</script>
+
+</body>
+</html>
